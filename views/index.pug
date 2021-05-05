@@ -1,0 +1,11 @@
+extends default
+
+block content
+  div.container
+    each idea in ideas
+      div.idea
+        h2.idea-author
+          | #{idea.firstname} #{idea.lastname}
+        a(href=`/idea?id=${idea.id}`)
+          | View idea
+

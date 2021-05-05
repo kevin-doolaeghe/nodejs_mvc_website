@@ -1,0 +1,16 @@
+extends default
+
+block header
+
+block content
+  div.idea
+    div.idea-details
+      h1.idea-title
+        | #{idea.title}
+      h2.idea-content
+        | #{idea.content}
+      p.idea-author
+        | #{idea.firstname} #{idea.lastname}
+      p.idea-date
+        | #{idea.date}
+
