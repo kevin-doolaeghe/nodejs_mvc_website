@@ -3,8 +3,10 @@ extends default
 block content
   div.container
     each idea in ideas
-      div.idea
-        h2.idea-author
+      div.idea-holder
+        h2.idea-title
+          | #{idea.title}
+        h3.idea-author
           | #{idea.firstname} #{idea.lastname}
         a(href=`/idea?id=${idea.id}`)
           | View idea

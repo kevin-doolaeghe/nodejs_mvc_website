@@ -1,5 +1,5 @@
 const express = require('express');
 
-module.exports = function() {
+module.exports = () => {
     return express.Router();
 };

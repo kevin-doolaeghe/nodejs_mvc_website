@@ -1,6 +1,6 @@
 const express = require('express');
 
-module.exports = function() {
+module.exports = () => {
     const app = express();
 
     app.set('view engine', 'pug');
@@ -10,7 +10,7 @@ module.exports = function() {
     
     app.use('/css', express.static('./public/css'));
     app.use('/js', express.static('./public/js'));
-    app.use('/img', express.static('./public/img'));
+    app.use('/img', express.static('./public/images'));
 
     return app;
 };

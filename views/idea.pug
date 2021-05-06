@@ -4,13 +4,16 @@ block header
 
 block content
   div.idea
+    div.idea-image(style=`background: url('/img/idea.png') top center no-repeat; background-size: cover;`)
     div.idea-details
       h1.idea-title
         | #{idea.title}
-      h2.idea-content
-        | #{idea.content}
-      p.idea-author
+      h2.idea-author
         | #{idea.firstname} #{idea.lastname}
-      p.idea-date
+      p.idea-content
+        | #{idea.content}
+      h4.idea-date
         | #{idea.date}
+      a.button.button-navigation(href='/')
+        | Return to main menu
 

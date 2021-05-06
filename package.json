@@ -10,6 +10,7 @@
   "license": "None",
   "dependencies": {
     "express": "^4.16.3",
+    "joi": "^17.4.0",
     "pug": "^2.0.4"
   },
   "devDependencies": {

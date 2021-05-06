@@ -8,6 +8,7 @@
 
 ```
 npm install
+npm install joi
 ```
 
 ## Démarrage
