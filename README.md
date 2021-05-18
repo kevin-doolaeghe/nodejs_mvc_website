@@ -11,8 +11,8 @@ https://github.com/Freshman-tech/node-express-website
 ## Installation
 
 ```
-npm install
-npm install joi
+npm install joi express pug
+npm install -p nodemon
 ```
 
 ## Démarrage
